@@ -1,25 +1,28 @@
 package Desafio05;
 
-public class ContaPoupanca extends ContaBancaria{
+public class ContaCorrente extends ContaBancaria{
 
     //Atributos
     TipoConta tipoConta;
 
     //construtores
-    public  ContaPoupanca(){
+
+    public ContaCorrente() {
 
     }
 
-    public ContaPoupanca(double saldo, TipoConta tipoConta) {
+    public ContaCorrente(double saldo, TipoConta tipoConta) {
         super(saldo);
         this.tipoConta = tipoConta;
     }
 
+
     //Metodos
+
     @Override
     public void menuBanco(){
         System.out.println("\n ==== Menu conta poupança ====");
-    System.out.println(" ");
+        System.out.println(" ");
         System.out.println("Digite o numero da sua opção: ");
         System.out.println("(1).Deposito (2).Saque (3).Ver Saldo");
     }
@@ -28,7 +31,7 @@ public class ContaPoupanca extends ContaBancaria{
         System.out.println("\n==== Deposito ====");
         System.out.println(" ");
         System.out.println("Deposito Realizado");
-        saldo += valor - (valor * 0.08);
+        saldo += valor;
 
     }
     @Override
@@ -45,3 +48,4 @@ public class ContaPoupanca extends ContaBancaria{
         System.out.println("Saque Realizado com sucesso");
     }
 }
+
