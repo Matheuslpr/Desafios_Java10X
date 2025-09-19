@@ -25,7 +25,6 @@ public class ContaPoupanca extends ContaBancaria{
     }
     @Override
     public void depositar(double valor){
-        System.out.println("\n==== Deposito ====");
         System.out.println(" ");
         System.out.println("Deposito Realizado");
         saldo += valor - (valor * 0.08);
@@ -39,7 +38,6 @@ public class ContaPoupanca extends ContaBancaria{
     }
     @Override
     public void sacar(double valor){
-        System.out.println("\n==== Saque ====");
         System.out.println(" ");
         saldo -= valor;
         System.out.println("Saque Realizado com sucesso");

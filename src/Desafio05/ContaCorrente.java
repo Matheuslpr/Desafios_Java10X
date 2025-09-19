@@ -24,11 +24,10 @@ public class ContaCorrente extends ContaBancaria{
         System.out.println("\n ==== Menu conta poupança ====");
         System.out.println(" ");
         System.out.println("Digite o numero da sua opção: ");
-        System.out.println("(1).Deposito (2).Saque (3).Ver Saldo");
+        System.out.println("(1).Deposito (2).Saque (3).Ver Saldo ");
     }
     @Override
     public void depositar(double valor){
-        System.out.println("\n==== Deposito ====");
         System.out.println(" ");
         System.out.println("Deposito Realizado");
         saldo += valor;
@@ -42,7 +41,6 @@ public class ContaCorrente extends ContaBancaria{
     }
     @Override
     public void sacar(double valor){
-        System.out.println("\n==== Saque ====");
         System.out.println(" ");
         saldo -= valor;
         System.out.println("Saque Realizado com sucesso");
