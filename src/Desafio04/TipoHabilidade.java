@@ -1,5 +1,10 @@
 package Desafio04;
 
 public enum TipoHabilidade {
-    Taijutsu, Ninjutsu, Genjutsu, Doujutsu, Katon, Rinnegan
+    TAIJUTSU,
+    NINJUTSU,
+    GENSUTSU,
+    DOUJUTSU,
+    KATON,
+    RINNEGAN
 }

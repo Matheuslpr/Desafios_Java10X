@@ -10,18 +10,18 @@ public class Main {
 
     //Construtores
     NinjaBasico Naruto = new NinjaBasico("Naruto Uzumaki",18,"Rasengan");
-    TipoHabilidade Rasengan = TipoHabilidade.Ninjutsu;
+    TipoHabilidade Rasengan = TipoHabilidade.NINJUTSU;
 
     NinjaBasico RockLee = new NinjaBasico("Rock Lee", 19, "Taijutsu");
-    TipoHabilidade Taijutsu = TipoHabilidade.Taijutsu;
+    TipoHabilidade Taijutsu = TipoHabilidade.TAIJUTSU;
 
     NinjaAvancado Sasuke = new NinjaAvancado("Sasuke Uchiha", 19, "Chidori", "Sharingan");
-    TipoHabilidade Chidori = TipoHabilidade.Ninjutsu;
-    TipoHabilidade Sharingan = TipoHabilidade.Doujutsu;
+    TipoHabilidade Chidori = TipoHabilidade.NINJUTSU;
+    TipoHabilidade Sharingan = TipoHabilidade.DOUJUTSU;
 
     NinjaAvancado Pain = new NinjaAvancado("Pain", 35, "8 Caminhos de Pain", "Rinnegan");
-    TipoHabilidade CaminhosDePain = TipoHabilidade.Ninjutsu;
-    TipoHabilidade Rinnegan = TipoHabilidade.Rinnegan;
+    TipoHabilidade CaminhosDePain = TipoHabilidade.NINJUTSU;
+    TipoHabilidade Rinnegan = TipoHabilidade.RINNEGAN;
 
     //Loop
     int escolha = 0;

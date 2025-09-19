@@ -7,8 +7,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         //Construtores
-        ContaCorrente contaCorrente = new ContaCorrente();
-        ContaPoupanca contaPoupanca = new ContaPoupanca();
+        ContaCorrente contaCorrente = new ContaCorrente(0,TipoConta.CORRENTE);
+        ContaPoupanca contaPoupanca = new ContaPoupanca(0,TipoConta.POUPANCA);
 
         //Loop
         int escolha = 0;
